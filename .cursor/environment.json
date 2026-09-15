@@ -1,0 +1,17 @@
+{
+  "name": "Copilot Workshops docs",
+  "install": "cd website && npm ci",
+  "terminals": [
+    {
+      "name": "astro-dev",
+      "command": "cd website && npm run dev",
+      "description": "Astro + Starlight dev server for the workshop docs site (http://localhost:4321/copilot-workshops/)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "astro-dev",
+      "port": 4321
+    }
+  ]
+}
